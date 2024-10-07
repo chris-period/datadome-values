@@ -142,9 +142,11 @@ try {
           x
         ]
   }
+
+  /*
+     32238eb6721e0d0917e7928181193ac88dcd62fad5cadfbe7a2b2b473ecf58ee70f018dbdb1a1832e8dc6528387b0745971dbcd82384261e9a4e3f
+  */
   console.log(output)
 } catch (r) {
   console.log('Err:' + message)
 }
-
-addSignal('bchk', output)
